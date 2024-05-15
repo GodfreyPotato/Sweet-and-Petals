@@ -90,7 +90,7 @@ html{
         padding: 1vw 2vw 1vw 2vw;
         background-color: rgba(33, 30, 30,.2);
         border-radius: 1vw;
-        width: 9vw;
+        width: 6vw;
     }
     .navBut{
         padding-top: 4vw;
@@ -249,9 +249,6 @@ html{
         box-shadow: 1vw 1vw 1vw rgb(125, 125, 125);
         transition: transform .3s ease;
     } 
-    .boxHover{
-
-    }
     .box:hover{
         transform: scale(1.1);
         box-shadow: 1vw 1vw 1vw 2px rgb(50, 50, 50);
@@ -458,7 +455,7 @@ html{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        font-size: 2vw;
+        font-size: 1.5vw;
         padding: 1vw;
         transition: transform .2s ease-in;
     }
@@ -528,14 +525,14 @@ html{
         text-align: center;  
     }
     .firstContainer{
-        padding-top: 6vw;
+        padding-top: 9vw;
         margin-top: -5vw;
         background-color: #FF522D;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-bottom: 4vw;
+        margin-bottom: 5vw;
         height: auto;
     }
     .indulge{
@@ -777,7 +774,7 @@ html{
     .contact{
         display: flex;
         justify-content: center;
-        font-size: 3vw;
+        font-size: 2vw;
         font-weight: bold;
         margin-bottom: 3vw;
     }
@@ -791,7 +788,7 @@ html{
         width: 5vw;
     }
     .soc-text a{
-        margin-left: 3vw;
+        margin-left: 2vw;
         text-decoration: underline;
         font-size: 2vw;
         color: white;
