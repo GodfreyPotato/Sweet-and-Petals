@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navigation-phone" id="phone">
+            
+            <div class="exitBox" onclick="exit()"><img src="images/Close Window.png" class="exit"></div>
+            <div class="clickNavigation">
+                <div class="navLogo" onclick="hide()"><a href="#Home"><img src="images/logo.jpg" class="navLogoImg"></a></div>
+                <div class="greet"> Hello Sweet!</div>
+                <div class="link" onclick="hide()"><a href="#Products">Products</a></div>
+                <div class="link" onclick="hide()"><a href="#AboutUs">About Us</a></div>
+                <div class="link" onclick="hide()"><a href="#Offer">Offers</a></div>
+                <div class="link" onclick="hide()"><a href="#Contact">Contact</a></div>
+           </div>
+        </div>
+        
+        <div class="navBut"><img src="images/sidebutton.png" class="sidebutton" onclick="show()"></div>
+        <div class="navigation-desktop">
+            <div class="navLogo"><a href="#Home"><img src="images/logo.jpg" class="navLogoImg"></a></div>
+            <div class="clickNavigation">
+                
+                <div class="link" onclick="hide()"><a href="#Products">Products</a></div>
+                <div class="link" onclick="hide()"><a href="#AboutUs">About Us</a></div>
+                <div class="link" onclick="hide()"><a href="#Offer">Offers</a></div>
+                <div class="link" onclick="hide()"><a href="#Contact">Contact</a></div>
+           </div>
+        </div>
+        
+        <div class="firstContainer" id="Home">
+            <div class="logoSap">
+                <div class="firstLogoContainer"><img src="images/logo.jpg" class="logoFirst"></div>
+                <div class="sap" >Sweets and Petals</div>
+            </div>
+            <div class="indulge">Indulge in the perfect blend of flavors and beauty!</div>
+        </div>
+
+        <div class="secondContainer" id="Products">
+            <div class="new" >New Flower Bouquet</div>  
+            <div class="scrollx" id="scrollxID">
+                <div  onmouseover="changeCol('rgba(237,115,152,.5)')" onmouseout="changeCol('rgba(173,145,134,.5)')"><img src="images/front1.jpg" class="flowerImg"></div>
+                <div  onmouseover="changeCol('rgba(232,219,115,.5)')" onmouseout="changeCol('rgba(173,145,134,.5)')"><img src="images/front2.jpg" class="flowerImg"></div>
+                <div onmouseover="changeCol('rgba(189,140,230,.5)')" onmouseout="changeCol('rgba(173,145,134,.5)')"><img src="images/front3.jpg" class="flowerImg"></div>
+                <div onmouseover="changeCol('rgba(251,137,94,.5)')" onmouseout="changeCol('rgba(173,145,134,.5)')"><img src="images/front4.jpg" class="flowerImg"></div>
+                <div onmouseover="changeCol('rgba(243,207,6,.5)')" onmouseout="changeCol('rgba(173,145,134,.5)')"><img src="images/front5.jpg" class="flowerImg"></div>
+            </div>          
+            <div class="flowerBG"><img src="images/flowerBg.png" class="flowerBGsize"></div>
+            
+        </div> <div class="thirdContainer">
+            <div class="wordCookie">Freshly Baked Cookies</div>
+            <div class="cookieContainer">
+
+                <div class="Largerbox">
+                    <div class="box"><img src="images/cookie1.png" class="cookie"></div>
+                    <div class="cookieName">Crinkle</div>
+                    <div class="price">₱12/piece</div>
+                </div>
+                
+                <div class="Largerbox">
+                    <div class="box"><img src="images/cookie2.png" class="cookie"></div>
+                    <div class="cookieName">Ube</div>
+                    <div class="price">₱12/piece</div>
+                </div>
+
+                <div class="Largerbox">
+                    <div class="box"><img src="images/cookie3.png" class="cookie"></div>
+                    <div class="cookieName">Coffee</div>
+                    <div class="price">₱12/piece</div>
+                </div>
+
+                <div class="Largerbox">
+                    <div class="box"><img src="images/cookie4.png" class="cookie"></div>
+                    <div class="cookieName">Classic</div>
+                    <div class="price">₱12/piece</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cookieBG">
+            <img src="images/cookieimage.png" class="cBG">
+        </div>
+
+        <div class="fourthContainer" id="AboutUs">
+            <div class="about">About Us</div>
+            <div class="business">We embarked on a business venture selling cookies and creating paper flowers for our peers. This endeavor taught us essential skills in time management, skill enhancement, and the basics of running a small-scale enterprise.
+
+            </div>
+        </div>
+
+        <div class="fifthContainer">
+            <div class="offer" id="Offer">We Offer</div>
+
+            <div class="offerBoxContainer">
+                <div class="offerBox">
+                    <div><img src="images/Slider.png" class="offerImg"></div>
+                    <div class="offerTxt">Custom Flower Design</div>
+                </div>
+                <div class="offerBox">
+                    <div><img src="images/Shopping.png" class="offerImg"></div>
+                    <div class="offerTxt">Cookies in Bundle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                </div>
+                <div class="offerBox">
+                    <div><img src="images/Cash on Delivery.png" class="offerImg"></div>
+                    <div class="offerTxt">Cash On Delivery&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                </div>
+            </div>
+            <div class="locSched">
+                <div class="loc">
+                    <div class="top-text">Located at</div>
+                    <div class="locSched-bot">
+                        <div><img src="images/Location.png"class="locSchedImg"></div>
+                        <div class="locSched-text">Matandang Balara, Quezon City, Philippines</div>
+                    </div>
+                </div>
+                <div class="sched">
+                    <div class="top-text">Available every</div>
+                    <div class="locSched-bot">
+                        <div ><img src="images/Time.png" class="locSchedImg"></div>
+                        <div class="locSched-text">Monday - Friday <br>10am - 3pm</div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+
+
+        <div class="sixthContainer" id="Contact">
+            <div class="contact">Contact Us Today</div>
+            <div>
+                <div class="soc">
+                    <div><img src="images/Instagram.png" class="socLogo"></div>
+                    <div class="soc-text"><a href="https://www.instagram.com/sweet.wonder2023?igsh=OTBqNjRnd3ljMDAw" target="_blank">Sweets and Petals</a></div>
+                </div>
+                <div class="soc">
+                    <div><img src="images/Facebook.png" class="socLogo"></div>
+                    <div class="soc-text"><a href="https://www.facebook.com/profile.php?id=61552583561792" target="_blank">Sweets and Petals</a></div>
+                </div>
+                <div class="soc">
+                    <div><img src="images/Phone.png" class="socLogo"></div>
+                    <div class="soc-text"><a href="">09304275273</a></div>
+                </div>
+            </div>
+            <div class="credit">All Right Reserved 2024</div>
+        </div>
+    </div>
+    <script src="function.js"></script>
+</body>
+</html>
