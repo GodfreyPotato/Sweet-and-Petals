@@ -165,7 +165,8 @@ html{
     }
     .scrollx{
         justify-content: space-around;
-        border-radius: 2vw;
+        border-radius: 2vw;        
+        background-color: rgba(173,145,134,.5);
         display: flex;
         overflow-x: scroll;
         margin-bottom: -30vw;
@@ -779,24 +780,39 @@ html{
         margin-bottom: 3vw;
     }
     .soc{
-        margin-left: 10vw;
         display: flex;
-        align-items:center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-bottom: 1vw;
+        width: 20vw;
     }
     .socLogo{
         width: 5vw;
     }
+    
     .soc-text a{
-        margin-left: 2vw;
         text-decoration: underline;
         font-size: 2vw;
         color: white;
+        order: 1;
+        text-align: center;
+    }
+    .smImg{
+        order: 2;
     }
     .credit{
         text-align: center;
         font-size: 1vw;
         margin-bottom: 2vw;
+    }
+    .socContainer{
+        width:100%;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
     }
 
 }
